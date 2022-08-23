@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main_div{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
+    /* background-color: coral; */
+}
+.sub_main_one{
+    width: 50%;
+    padding-left: 4rem;
+}
+.logo_div{
+    display: flex;
+    align-items: center;
+    margin-top: .3rem;
+}
+.logo_css{
+    height: 4rem;
+    width: 10rem;
+}
+.sub_main_two{ 
+    padding-right: 3rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header_buttons{
+    display: flex;
+    justify-content: center;
+    /* font-family: 'Segoe UI'; */
+    cursor: pointer;
+
+}
+.join_main_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-size: small;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 9px;
+    border: 1.5px solid green;
+    /* font-family: 'Segoe UI'; */
+    cursor: pointer;
+}
+.English_Dollar_button_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    cursor: pointer;
+}
+.English_dollar_tag{
+    padding-left: 8px;
+    /* font-family: 'Segoe UI'; */
+    cursor: pointer;
+}
+.globe_css{
+    height: 1rem;
+    width: 1rem;
+}
+.dollar_css{
+    height: 1rem;
+    width: 1rem;
+}
+.menu_icon_main{
+    display: none;
+    position: absolute;
+    right: 3rem;
+    height: 7%;
+    margin-top: 1.2rem;
+  }
+  .icon_Css{
+      height: 70%;
+      width: 100%;
+  }
+.dropdown_menu_main{
+    flex-flow: column nowrap;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    z-index: 2;
+    right: 0;
+    height: 300px;
+    border-radius: 15px;
+    width: 250px;
+    margin-top: 80px;
+    margin-right: 2rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.menu_logo_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    /* background-color: coral; */
+}
+.menu_logo{
+    height: 100%;
+    width: 70%;
+}
+.menu_first_heading_css{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    height: 13%;
+    display: flex;
+    color: #00966B;
+    padding-left: 1.5rem;
+    cursor: pointer;
+}
+.menu_first_heading_css:hover{
+    color: rgb(5, 59, 59);
+}
+.menu_second_heading_css{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    height: 13%;
+    display: flex;
+    color: #00966B;
+    padding-left: 1.5rem;
+    cursor: pointer;
+}
+.menu_second_heading_css:hover{
+    color: rgb(5, 59, 59);
+
+}
+.menu_third_heading_css{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    height: 13%;
+    display: flex;
+    color: #00966B;
+    padding-left: 1.5rem;
+    cursor: pointer;
+}
+.menu_third_heading_css:hover{
+    color: rgb(5, 59, 59);
+
+}
+.menu_fourth_heading_css{
+    display: flex;
+    /* background-color: cadetblue; */
+    /* align-items: center; */
+    /* align-self: center; */
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    height: 13%;
+    display: flex;
+    color: #00966B;
+    padding-left: 1.5rem;
+    cursor: pointer;
+}
+.menu_fourth_heading_css:hover{
+    color: rgb(5, 59, 59);
+
+}
+.menu_fifth_heading_css{
+    display: flex;
+    /* background-color: cadetblue; */
+    /* align-items: center; */
+    /* align-self: center; */
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    height: 13%;    
+    display: flex;
+    color: #00966B;
+    padding-left: 1.5rem;
+    cursor: pointer;
+}
+.menu_fifth_heading_css:hover{
+    color: rgb(5, 59, 59);
+}
+@media only screen and (max-width: 930px){
+    .menu_icon_main{
+        display: flex;
+    }
+    .sub_main_two{
+        display: none;
+    }
+}

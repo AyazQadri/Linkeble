@@ -1,0 +1,263 @@
+.order_details_main_page_div{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4rem;
+    padding-right: 8rem;
+}
+.first_order_details_main{
+    min-width: 25vw;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    border-radius: 15px;
+    border: 1px solid lightgrey;
+    padding-bottom: 2rem;
+}
+.order_page_profile_pic_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+}
+.Circular_profile_img_css{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.profile_name_main_div{
+    display: flex;
+    flex-direction: row;
+    padding-top: .7rem;
+    min-width: 50%;
+    /* background-color: coral; */
+    justify-content: space-evenly;
+}
+.profile_name_text_css{
+    font-size: large;
+    font-family: 'Roboto';
+    font-weight: bold;
+}       
+.profile_level_css{
+    font-size: medium;
+    display: flex;
+    align-self: flex-end;
+    font-weight: 500;
+}
+.verified_icon_css{
+    padding-left: 5px;
+}
+.status_div{
+    padding-top: 1rem;
+}
+.profiler_location_div{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+.location_icon_css{
+    height: 100%;
+}
+.country_name_css{
+    color: gray;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+.avg_response_rate_div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    background-color: #F6F6F6;
+    width: 75%;
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.avg_response_rate_text_n_mins_div_main{
+    display: flex;
+    flex-direction: column;
+}
+.circular_progress_bar_div{
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+}
+.second_order_details_main{ 
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    padding-left: 1.5rem;
+    width: 70%;
+}
+.Top_div_Active_orders_main{
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px 25px 10px 25px; */
+    border-radius: 5px;
+
+}
+.Active_orders_div{
+    font-family: 'Segoe UI';
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+}
+.chat_n_all_orders_btns_main{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI';
+    padding: 10px 20px 10px 20px;
+}
+.chat_btn_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: small;
+    align-items: center;
+    padding: 5px 15px 5px 15px;
+    border: 2px solid #3fad8e;
+    border-radius: 20px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.plus_icon_css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    padding-top: 3px;
+    padding-right: 5px;
+}
+.All_orders_btn_main{
+    padding: 5px 30px 5px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00966b;
+    border-radius: 20px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.all_orders_select_input_field{
+    outline: none;
+    background-color: #00966b;
+    border: none;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+
+}
+.order_card_main{
+    background-color: #00966b;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.order_image_div_mainn{
+    padding: 10px 20px 10px 20px ;
+    height: 10rem;
+    border-radius: 5px;
+}
+.order_image_css{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.second_order_card_div_main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    padding: 10px 0px 10px 0px;
+    width: 16vw ;
+    /* background-color: cadetblue; */
+}
+.profile_mainnn{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1.5rem;
+}
+.order_profile_image_div{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: cadetblue; */
+    object-fit: contain;
+}
+.Order_profile_image_csss{
+    height: 100%;
+    width: 100%;
+}
+.order_name_country_details_div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+.order_budget_main_div{
+    display: flex;
+    flex-direction: column;
+}
+.third_order_card_div_main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5rem;
+    padding: 10px 0px 10px 0px;
+    max-width: 16vw ;
+    /* background-color: cadetblue; */
+}
+.status_n_incomplete_main{
+    display: flex;
+    flex-direction: column;
+
+}
+.status_div_{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.InComplete_div_{
+    border: 1px solid #7dc9b3;
+    width: fit-content;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+}
+.Delivery_n_time_divs{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+
+}
+.delivery_divv_{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.clock_icon_n_time{
+    border: 1px solid #7dc9b3;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.remaining_days_time{
+    padding-left: 10px;
+    text-align: initial;
+}

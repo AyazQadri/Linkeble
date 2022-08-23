@@ -1,0 +1,231 @@
+.popup_main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-self: center;
+    /* z-index: 2;
+    position: fixed */
+}
+.popUp_sub_main{
+    width: 60%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    z-index: 2;
+    position: fixed;
+    box-shadow: gray 2px 5px 5px 5px;
+}
+.first_main{
+    /* background-color: coral; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.pic_above_css{
+    display: flex;
+    padding-left: 2rem;
+    font-weight: 500;
+    font-size: xx-large;
+}
+.second_main{
+    height: 100%;
+    width: 50%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+}
+.cross_icon_main{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+.cross_icon_css{
+    height: 70%;
+    width: 6%;
+    cursor: pointer;
+}
+.welcome_heading{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 500;
+}
+.welcome_heading_below_text{
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    margin-top: 2rem;
+    font-size: medium;
+}
+.main_div_input_field{
+    display: flex;
+    flex-direction: column;
+}
+.email_tag_div{
+    padding-left: 15%;
+    padding-top: 1rem;
+    font-size: small;
+
+}
+._input_field{
+    width: 70%;
+    height: 50px;
+    background-color: white;
+    margin-left: 15%;
+    border-radius: 25px;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.email_Icon_css{
+    height: 30%;
+    width: 5%;
+}
+.input_css{
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    width: 80%;
+    /* padding-right: 1rem; */
+}
+
+.password_tag_div{
+    padding-left: 15%;
+    padding-top: 5px;
+    font-size: small;
+}
+.eye_css{
+    display: flex;
+    align-self: flex-end;
+    align-self: center;
+    height: 30%;
+}
+.main_forgot_password_checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.checkBox_remeber_me_div{
+    margin-left: 15%;
+    padding-top: 5px;
+    display: flex;
+    /* background-color: yellow; */
+}
+.checkbox_css{
+    border-radius: 50%;
+
+}
+.remeber_me_text{
+    font-size: small;
+    padding-left: 15px;
+}
+
+.forgot_password_div{
+    color: red;
+    font-size: small;
+    margin-right: 12%;
+    cursor: pointer;
+}
+.forgot_password_div:hover{
+    color: darkred;
+}
+.sign_in_button_main{
+    margin-left: 15%;
+    width: 75%;
+    height: 40px;
+    background-color: #00966B;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Join_now_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.dont_have_account_text_css{
+    color: darkgray;
+    font-size: x-small;
+}
+.join_now_text_css{
+    cursor: pointer;
+    font-weight: 600;
+    padding-left: 5px;
+}
+.join_now_text_css:hover{
+    font-weight: 700;
+}
+.sign_in_with_main{
+    display: flex;  
+    flex-direction: row;
+    margin-left: 15%;
+}
+.left_line{
+    display: flex;
+    align-self: center;
+    width: 25%;
+    border-top: 1px solid #00966B;
+}
+.text_between_line{
+    font-size: small;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.right_line{
+    display: flex;
+    align-self: center;
+    width: 25%;
+    border-top: 1px solid #00966B;
+}
+.google_facebook_main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 12%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.google_div{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 40%;
+    border-radius: 25px;
+    background-color: #4285F4;
+}
+.google_icon_css{
+    height: 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.google_text{
+    color: white;
+    font-size: 14px;
+}
+.facebook_div{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 40%;
+    border-radius: 25px;
+    background-color: #4267B2;
+}
+.facebook_icon_css{
+    height: 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.facebook_text{
+    color: white;
+    font-size: 14px;
+}

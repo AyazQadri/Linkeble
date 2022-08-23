@@ -1,0 +1,29 @@
+.main_guest_option{
+    display: flex;
+    flex-direction: row;
+    padding-left: 4rem;
+    height: 2rem;
+    border-bottom: 1px solid grey;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 7%;
+    overflow: auto;
+    /* white-space: inherit; */
+}
+.options_div{
+    cursor: pointer;
+    width: max-content ;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    padding: 10px;
+}
+.main_guest_option::-webkit-scrollbar{
+    width: 0;
+}
+@media only screen and (max-width: 770px) {
+    .main_guest_option::-webkit-scrollbar{
+        width: 0;
+    }
+}

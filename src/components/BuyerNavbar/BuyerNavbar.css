@@ -1,0 +1,141 @@
+.main_nav_bar_div{
+    height: 70px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid lightgrey;
+    /* background-color: coral; */
+    padding-left: 4rem;
+}
+.sub_navbar_logo_main{
+    display: flex;
+    align-items: center;
+}
+.logo_navbar_css{
+    height: 4rem;
+    width: 10rem;
+}
+.Main_search_bar_buyer{
+    width: 40%;
+    display: flex;
+    align-self: center;
+    margin-left: 2rem;
+    max-width: fit-content;
+    height: 2.5rem;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.Search_icon_main{
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    align-items: center;
+    padding-left: 1rem;
+    border-left: 1.5px solid #00966B;
+    border-top: 1.5px solid #00966B;
+    border-bottom: 1.5px solid #00966B;
+
+}
+.searchIcon_css{
+    height: 60%;
+}
+.input_field_main{
+    border-top: 1.5px solid #00966B;
+    border-bottom: 1.5px solid #00966B;
+
+}
+.search_input_text_field{
+    height: 100%;
+    background-color: #FAFAFA;
+    /* background-color: crimson; */
+    border: none;
+    outline: none;
+    display: flex;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.SearcchButton{
+    padding: 10px;
+    /* text-justify: inter-word; */
+    color: white;
+    font-weight: 500;
+    font-size: .9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008459;
+    border-radius: 5px;
+    /* border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; */
+}
+.BuyerSearchBar_Options_main{
+   /* background-color: brown; */
+   width: 100vw;
+   padding-left: 20px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding-right: 4rem;
+}
+.subMain_BuyerSearchBar_Options{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+}
+.Chat_Orders_preferences{
+    cursor: pointer;
+}
+.DashBoard_option_div{
+    font-weight: 600;
+    color: #008459;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+.NotificationIcon_main{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.NotificationIcon_css{
+    width: 70%;
+}
+.ProfilePic_IconMain{
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+    border-radius: 50%;
+    /* background-color: coral; */
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ProfilePictureIcon{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+
+}
+.active_dot{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(110, 197, 29);
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 35px;
+    /* margin-top: -35px; */
+    /* margin-left: -11px;
+    position: relative; */
+}

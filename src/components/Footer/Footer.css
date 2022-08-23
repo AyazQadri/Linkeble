@@ -1,0 +1,182 @@
+.footer_main{
+    margin-top: 4rem;
+    background-color: #00966B;
+    /* margin-bottom: 5rem; */
+    display: flex;
+    flex-direction: column;   
+    max-height: 100%;
+}
+.footer_above_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.footer_card{
+    /* max-width: 100%; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+.column_main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.columns_tag{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-bottom: .8rem;
+
+}
+.headings{
+    color: white;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.column_below_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    flex-direction: column;
+}
+.column_below_text{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.images_main{
+    padding: 1rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: cadetblue; */
+}
+.AppGoogleStore{
+    height: 100%;
+    width: 30%;
+}
+.social_sites_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: center;
+    padding-top: 1rem;
+    width: 50%;
+}
+.icons_css{
+    /* margin-left: rem; */
+    height: 50%;
+}
+.top_main{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 10rem;
+    margin-top: -5rem;
+    justify-content: center;
+    color: #00966B;
+    flex-direction: column;
+    align-items: center;    
+    
+}
+.top_icon_css{
+    width: 50%;
+}
+.last_one_main{
+    margin-left: 4rem;
+    border-top: 0.3px solid lightgray;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_css{
+    margin-left: -15px;
+}
+.center_bottom_text{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+}
+.English_USD_main{
+    display: flex;
+    width: 15%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.English_Dollar_button_sub_main{
+    display: flex;
+}
+@media only screen and (max-width: 600px){
+    .footer_card{
+        flex-wrap: wrap;
+    }
+    .column_main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .column{
+        margin-top: 2rem;
+    }
+}
+@media only screen and (max-width: 920px){
+    .last_one_main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem; 
+    }
+    .center_bottom_text{
+        margin-bottom: 1rem;
+    }
+    .English_USD_main{
+        width: 30%;
+        justify-content: space-around;
+    }
+    .top_main{
+        margin-right: 6rem;    
+    }
+}
+@media only screen and (max-width: 550px){
+    .English_USD_main{
+        width: 50%;
+        justify-content: space-evenly;
+    }
+}
+@media only screen and (max-width: 350px){
+    .English_USD_main{
+        width: 80%;
+        justify-content: space-evenly;
+    }
+}
+@media only screen and (max-width: 620px){
+    .top_main{
+        margin-right: 2rem;    
+    }
+}
+@media only screen and (max-width: 480px){
+    .top_main{
+        display: none;
+    }
+}

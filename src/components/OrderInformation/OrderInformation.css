@@ -1,0 +1,118 @@
+.order_info_main{
+    padding-left: 4rem;
+    padding-right: 8rem;
+}
+.order_info_order_card_main{
+    background-color: #00966b;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.order_info_order_image_div_mainn{
+    padding: 10px 20px 10px 20px ;
+    min-width: 20vw;
+    height: 10rem;
+    border-radius: 5px;
+}
+.order_info_order_image_css{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.order_info_second_order_card_div_main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    padding: 10px 0px 10px 0px;
+    width: 16vw ;
+    /* background-color: cadetblue; */
+}
+.order_info_profile_mainnn{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1.5rem;
+}
+.order_info_order_profile_image_div{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: cadetblue; */
+    object-fit: contain;
+}
+.order_info_Order_profile_image_csss{
+    height: 100%;
+    width: 100%;
+}
+.order_info_order_name_country_details_div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+.order_info_order_budget_main_div{
+    display: flex;
+    flex-direction: column;
+}
+.order_info_third_order_card_div_main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8rem;
+    padding: 10px 0px 10px 0px;
+    max-width: 16vw ;
+    /* background-color: cadetblue; */
+}
+.order_info_status_n_incomplete_main{
+    display: flex;
+    flex-direction: column;
+}
+.order_info_status_div_{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.order_info_InComplete_div_{
+    border: 1px solid #7dc9b3;
+    width: fit-content;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+}
+.order_completed_className{
+    background-color: #ffffff;
+    width: fit-content;
+    padding: 2px 8px 2px 7px;
+    border-radius: 5px;
+    color: #00966B;
+    font-size: small;
+    font-weight: bold;
+}
+.order_info_Delivery_n_time_divs{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+}
+.order_info_delivery_divv_{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.order_info_clock_icon_n_time{
+    border: 1px solid #7dc9b3;
+    padding: 2px 5px 2px 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order_info_remaining_days_time{
+    padding-left: 10px;
+    text-align: initial;
+}

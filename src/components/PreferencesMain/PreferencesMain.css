@@ -1,0 +1,135 @@
+.preferneces_main_div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+    padding-right: 8rem;
+    padding-top: 2rem;
+}
+.my_fvrt_main_div{
+    font-family: 'Roboto';
+    font-size: 2rem;
+    font-weight: lighter; 
+}
+.fvrts_details{
+    max-width: 80%;
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding-top: 10px;
+    line-height: 25px;
+}
+.fvrts_services_headings{
+    padding-top: 2rem;
+    font-weight: lighter;
+    font-size: 2rem;
+    font-family: 'Roboto';
+}
+.fvrt_card_main{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+    background-color: #00966B;
+    border-radius: 5px;
+}
+.card_heading_with_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 10px 10px 20px;
+}
+.heading_name_div{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.icon_More_div{
+    color: white;
+    cursor: pointer;
+}
+.total_services_div{
+    color: white;
+    padding: 5px 20px 5px 20px;
+    font-size: large;
+    padding-bottom: 8px;
+}
+.fvrt_card_images_main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.vertical_img_div{
+    width: 9vw;
+    background-color: cadetblue;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.vertical_img_css{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+.rest_two_images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fvrt_card_above_imge{
+    height: 5rem;
+    width: 6vw;
+    background-color: aqua;
+}
+.above_img_css{
+    height: 100%;
+    width: 100%;
+
+}
+.fvrt_card_below_img{
+    height: 5rem;
+    width: 6vw;
+}
+.below_img_css{
+    height: 100%;
+    width: 100%;
+}
+.Add_new_list_main{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 240px;
+    background-color: #00966B;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.add_new_list_text_css{
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+    /* background-color: cadetblue; */
+}
+.plus_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus_css{
+    height: 4rem;
+    width: 4rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 6px solid white;
+    padding: 1rem;
+    cursor: pointer;
+}
+.Services_card_component_div{
+    margin-top: 8rem;
+    /* background-color: #00966B; */
+}

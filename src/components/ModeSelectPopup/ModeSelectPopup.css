@@ -1,0 +1,75 @@
+.mode_main_div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.sub_main_mode_div{
+    width: 30%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    margin-top: 10rem;
+    
+}
+.cross_icon_main_div{
+    width: 90%;
+    display: flex;
+    /* background-color: crimson; */
+    justify-content: flex-end;
+    padding: 1rem;
+}
+.cross_icon_css{
+    height: 70%;
+    width: 7%;
+    cursor: pointer;
+}
+.continue_as_div{
+    margin-top: 2rem;
+    font-size: xx-large;
+    font-weight: 600;
+}
+.buyer_btn{
+    width: 75%;
+    height: 40px;
+    background-color: #00966B;
+    flex-direction: row;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+}
+.buyer_text_div{
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3rem;
+
+}
+.leftArrow_div{
+    display: flex;
+    justify-content: flex-end;
+}
+.leftArrow_css{
+    width: .8rem;
+    padding-right: 3rem;
+}
+.talent_btn{
+    width: 75%;
+    height: 40px;
+    background-color: #00966B;
+    flex-direction: row;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
