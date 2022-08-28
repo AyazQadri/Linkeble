@@ -10,6 +10,8 @@ import OrderPage from './pages/OrderPage/OrderPage';
 import OrderInfromationPage from './pages/OrderInformationPage/OrderInfromationPage';
 import PreferencesPage from './pages/PreferencesPage/PreferencesPage';
 import CreateFavoriteListPage from './pages/CreateFavoriteListPage/CreateFavoriteListPage';
+import BuyerChatPage from './pages/BuyerChatPage/BuyerChatPage';
+
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
           <Route path='/orderdetails' element={<OrderInfromationPage /> } />
           <Route path='/preferences' element={<PreferencesPage /> } />
           <Route path='/preferencesresult' element={<CreateFavoriteListPage /> } />
+          <Route path='/chat' element={<BuyerChatPage /> } />
 
         </Routes>
       </Router>

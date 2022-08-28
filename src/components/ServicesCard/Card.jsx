@@ -12,6 +12,8 @@ import { FavoriteBorder } from "@material-ui/icons";
 import "../ServicesCard/ServicesCard.css";
 import logo from "../../images/download.png";
 import StarIcon from "@material-ui/icons/Star";
+import BuyerFooter from '../BuyerFooter/BuyerFooter';
+
 
 const CardServices = ({ data }) => {
 
@@ -59,7 +61,7 @@ const CardServices = ({ data }) => {
                 <StarIcon style={{ color: "gold", fontSize: "large" }} />
                 <StarIcon style={{ color: "gold", fontSize: "large" }} />
               </div>
-              <div style={{ fontSize: "small", display: 'flex',  alignSelf: 'center' }}>
+              <div style={{ fontSize: "small", display: 'flex',  alignSelf: 'center', color: 'white' }}>
                 {"5(11)"}
               </div>
             </div>
@@ -77,6 +79,7 @@ const CardServices = ({ data }) => {
                 fontSize: "1.3rem",
                 verticalAlign: "bottom",
                 display: "flex",
+                color: 'white'
               }}
             >
               From $10

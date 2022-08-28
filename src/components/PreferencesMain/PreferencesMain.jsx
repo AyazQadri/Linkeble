@@ -13,11 +13,18 @@ import ServicesCardComponent from "../ServicesCardComponent/ServicesCardComponen
 import RecomendedServicesCard from "../RecomendedServicesCardComponent/RecomendedServicesCard";
 import BuyerFooter from "../BuyerFooter/BuyerFooter";
 import LinkedJobPopup from "../LinkedJobPopup/LinkedJobPopup";
+import { useNavigate } from 'react-router-dom';
+
 
 const PreferencesMain = () => {
-
+  const navigate = useNavigate()
   const [showLinkedPopup, setShowLinkedPopup] = useState(false)
 
+
+
+  const handleSubmitLinkedJobListFunc = () => {
+    navigate('/preferencesresult')
+  }
 
   return (
     <div>
@@ -32,6 +39,7 @@ const PreferencesMain = () => {
         opt={'(opt)'}
         SubmitBtn={'Create List'}
         CancelBtn={'Cancel'}
+        handelSubmitBtn={() => handleSubmitLinkedJobListFunc()}
         />
       </div>
       <div>

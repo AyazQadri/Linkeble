@@ -19,7 +19,18 @@ import CrossIcon from "../../images/cross3.png";
 import { TextareaAutosize } from "@mui/material";
 import "../LinkedJobPopup/LinkedJobPopup.css";
 
-const LinkedJobPopup = ({ showPopup, hidePopup, title, heading, FirstInputLabel,SecondInputLabel ,opt , SubmitBtn, CancelBtn}) => {
+const LinkedJobPopup = ({
+  showPopup,
+  hidePopup,
+  title,
+  heading,
+  FirstInputLabel,
+  SecondInputLabel,
+  opt,
+  SubmitBtn,
+  CancelBtn,
+  handelSubmitBtn
+}) => {
   return (
     <div>
       <Dialog open={showPopup} PaperProps={{ style: { borderRadius: 30 } }}>
@@ -105,7 +116,7 @@ const LinkedJobPopup = ({ showPopup, hidePopup, title, heading, FirstInputLabel,
                   fontSize: "1.2rem",
                 }}
               >
-              {opt}
+                {opt}
               </span>
             </Box>
             <textarea
@@ -147,6 +158,7 @@ const LinkedJobPopup = ({ showPopup, hidePopup, title, heading, FirstInputLabel,
                 fontFamily: "Roboto",
                 flexWrap: "wrap",
               }}
+              onClick={() => handelSubmitBtn()}
             >
               {SubmitBtn}
             </Box>

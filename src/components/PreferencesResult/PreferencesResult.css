@@ -1,0 +1,123 @@
+.result_preferences_main{
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 4rem; */
+    /* padding-right: 8rem; */
+    padding-top: 2rem;
+}
+.result_my_fvrt_main_div{
+    padding-left: 4rem;
+    font-family: 'Roboto';
+    font-size: 2rem;
+    font-weight: lighter; 
+}
+.result_fvrts_details{
+    padding-left: 4rem;
+    max-width: 65%;
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding-top: 10px;
+    line-height: 25px;
+}
+.App_development_row_main{
+    display: flex;
+    flex-direction: column;
+    /* border-bottom: 2px solid grey; */
+    padding-top: 1rem;
+    /* background-color: cadetblue; */
+}
+.app_development_text{
+    padding-left: 4rem;
+    /* padding-bottom: 5px; */
+    padding-top: 10px;
+    padding-left: 4rem;
+    font-family: 'Roboto';
+    font-size: 2rem;
+    font-weight: lighter; 
+}
+.modifiying_icons_main{
+    display: flex;
+    flex-direction: row;
+    padding-right: 8rem;
+    padding-bottom: 10px;
+}
+.icon_div_for_all_icons{
+    margin-left: 15px;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #F1F1F1;
+}
+.icon_css_for_all_icons{
+    height: 40%;
+    width: 40%;
+}
+.added_list_card_full_main{
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 3.5rem;
+    padding-right: 8rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.added_list_card_full_main::-webkit-scrollbar{
+    display: none;
+}
+.added_list_card_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 400px;
+    max-width: 17rem;
+    background-color: #00966B;
+    border-radius: 5px;
+    margin-right: 2rem;
+}
+.add_list_card_title{
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.add_list_rating_start_with_save_icon_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.add_list_card_rating_div{
+    padding: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fvrt_icon_csss{
+    padding-right: 10px;
+}
+.App_devlop_budget_name{
+    color: white;
+    font-size: larger;
+    padding: 0px 10px 10px 10px;
+}
+.app_image_div{
+    height: 25vh;
+    object-fit: contain;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.App_image_css{
+    height: 100%;
+    width: 100%;
+}

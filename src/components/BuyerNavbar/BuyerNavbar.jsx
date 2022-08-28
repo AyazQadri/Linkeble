@@ -32,15 +32,30 @@ const BuyerNavbar = () => {
       </div>
       <div className="BuyerSearchBar_Options_main">
         <div className="subMain_BuyerSearchBar_Options">
-          <div className="DashBoard_option_div">Dashboard</div>
-          <div className="Chat_Orders_preferences">Chat</div>
+          <div
+            className="DashBoard_option_div"
+            onClick={() => navigate("/buyerhome")}
+          >
+            Dashboard
+          </div>
+          <div
+            className="Chat_Orders_preferences"
+            onClick={() => navigate("/chat")}
+          >
+            Chat
+          </div>
           <div
             className="Chat_Orders_preferences"
             onClick={() => navigate("/buyerorders")}
           >
             Orders
           </div>
-          <div className="Chat_Orders_preferences" onClick={() => navigate('/preferences')}>Preferences</div>
+          <div
+            className="Chat_Orders_preferences"
+            onClick={() => navigate("/preferences")}
+          >
+            Preferences
+          </div>
           <div className="NotificationIcon_main">
             <img
               src={NotificationIcon}
